@@ -1,0 +1,15 @@
+.btn-success {
+    background-color: #235439;
+    color: white;
+}
+.btn-nss {
+    background-color: #23543965;
+    color: white;
+    width: 69%;
+    height: 30%;
+    border-radius: 30px;
+}
+.btn-nss:hover {
+    color: white;
+
+}

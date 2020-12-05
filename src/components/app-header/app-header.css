@@ -1,0 +1,29 @@
+.mynavbar {
+    background: transparent;
+    z-index: 100;
+}
+.nav-link {
+    text-decoration: none;
+    color: #031D44;
+    position: relative;
+    opacity: 0.75;
+  }
+
+  .nav-link:hover {
+    opacity: 1;
+  }
+.nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #235439;;
+  }
+  
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 5px;
+  }
+  .nav-link-ltr:hover::before {
+    width: 85%;
+  }
