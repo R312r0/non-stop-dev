@@ -1,6 +1,7 @@
 import React from 'react';
 import img from './logo.png'
 import './app-header.css'
+import {Link} from 'react-router-dom';
 const AppHeader = () => {
     return (
         <>
@@ -14,16 +15,16 @@ const AppHeader = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item active pl-5">
-                                <h4><a className="nav-link nav-link-ltr" href="#">Головна <span class="sr-only">(current)</span></a></h4>
+                                <h4><Link to='/' className='nav-link nav-link-ltr'>Головна</Link></h4>
                             </li>
                             <li className="nav-item pl-5">
-                                <h4><a className="nav-link nav-link-ltr" href="#">Про нас</a></h4>
+                            <h4><Link to='/about-us' className='nav-link nav-link-ltr'>Про нас</Link></h4>
                             </li>
                             <li className="nav-item pl-5">
-                                <h4><a className="nav-link nav-link-ltr" href="#">Проекти</a></h4>
+                                <h4><Link to='/projects' className='nav-link nav-link-ltr' >Проекти</Link></h4>
                             </li>
                             <li className="nav-item pl-5">
-                                <h4><a className="nav-link nav-link-ltr" href="#">Контакти</a></h4>
+                                <h4><Link to='/contacts' className='nav-link nav-link-ltr'>Контакти</Link></h4>
                             </li>
                         </ul>
                     </div>
