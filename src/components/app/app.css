@@ -1,15 +1,6 @@
-body {
-    font-family: "Audiowide", sans-serif;
-}
-
-.trans-col {
-    background: white;
-    
-}
-
-.left-side-content {
-    margin-top: 32vh;
-}
-.image-block {
-    padding: 0;
+body{
+    font-family: "Bahnschrift", sans-serif;
+    background-repeat: no-repeat;
+    background-size: 44%, 100% ;
+    background-position: right top;
 }

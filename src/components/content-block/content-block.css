@@ -1,15 +1,32 @@
-.btn-success {
-    background-color: #235439;
-    color: white;
-}
 .btn-nss {
+    width: 100%;
+    height: 100%;
     background-color: #23543965;
-    color: white;
-    width: 69%;
-    height: 30%;
     border-radius: 30px;
+    padding: 22px 15px;
+    color: white;
+
 }
 .btn-nss:hover {
     color: white;
 
+}
+.web-title {
+    
+    padding-top: auto;
+    height: 100vh;
+  }
+
+.img-block {
+    padding: 0;
+}
+
+.right-side-img {
+    background-repeat: no-repeat;
+    background-size: 44%, 100% ;
+    background-position: right top;
+}
+.img-nss {
+    width: 100%;
+    height: 100vh;
 }
