@@ -1,6 +1,4 @@
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 4;
+.foot-nav {
+    z-index: 100;
+    background-color: transparent!important;
 }

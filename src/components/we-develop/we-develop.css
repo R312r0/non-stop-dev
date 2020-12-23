@@ -1,0 +1,17 @@
+.we-dev-container {
+    margin-top: 15vh;
+}
+
+.card {
+    margin-top: 23px;
+    width: 90%;
+    border: 0;
+}
+
+.card-header {
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 20px;
+    background-color: rgba(35, 84, 57, 0.75);
+    border-radius: 30px!important;
+}
